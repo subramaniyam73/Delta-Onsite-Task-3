@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Saira+Semi+Condensed&family=Sriracha&family=Staatliches&display=swap" rel="stylesheet">
+    <!-- <link rel="favicon" href="deltalogo"> -->
+    <title>Web Scraper-Task 3</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <div class="headBox">
+        <h1 class="pageHead"><img src="/deltaLogoGreen.png" width="30px" height="30px" style="padding: 0 10px;" alt="">  Delta Web Scraper- Onsite Task 3 </h1>
+        <h2 class="pageSub">View -> Cricket Match Summary</h2>
+        <p class="pageDesc">The Content in this web app has been taken from <a href="<%=scrapingUrl%>">Espncricinfo</a></p>
+    </div>
+
+    <div class="resultBox">
+        <h2 class="mainHead">RESULT</h2>
+        <h2><%=match.desc%></h2>
+        <div class="teamBox">
+            <a href="<%=team1.link%>"><span class="left"><%=team1.name%></span></a>
+            <span class="right"><%=team1.finScore%></span>
+        </div>
+        <div class="teamBox">
+            <a href="<%=team2.link%>"><span class="left"><%=team2.name%></span></a>
+            <span class="right"><%=team2.finScore%></span>
+            <span class="right"><%=team2.target%></span>
+            
+        </div>
+        <div class="playerBox">
+            <h3 class="mainHead">PLAYER OF THE MATCH</h3>
+            <a href="<%=match.bestPlayerLink%>"><span><%=match.bestPlayer%></span></a>
+            <span><%=match.bestPlayerTeam%></span>
+            <span><%=match.summary%></span>
+        </div>
+    </div>
+    
+</body>
+</html>

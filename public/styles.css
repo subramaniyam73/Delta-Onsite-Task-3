@@ -1,0 +1,83 @@
+body{
+    font-family: "Roboto" , sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #b2ebf2; */
+    background-color: white;
+}
+.headBox{
+    /* #038DCC */
+    font-family: 'Sriracha', cursive;
+    /* background-color:#ff7171; */
+    /* background-color: #00bcd4; */
+    background-color: white;
+    padding: 10px;
+}
+.pageHead{
+    padding:10px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #b52b65;
+    text-align: center;
+}
+.pageSub{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1px;
+}
+.pageDesc{
+    text-align: center;
+    font-size: 25px;
+}
+.resultBox{
+    width: 50%;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    background-color: #b2ebf2;
+    /* background-color: #ffd36b; */
+    box-shadow: 0 0 15px black;
+    border-radius: 20px;
+    padding: 14px;
+    margin: 20px auto;
+    font-weight: 600;
+}
+.resultBox h2{
+    
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.teamBox{
+    overflow: hidden;
+}
+.left{
+    float: left;
+    font-size: 25px;
+    padding: 7px;
+}
+.right{
+    float: right;
+    font-size: 25px;
+    padding: 7px;
+}
+.playerBox h3{
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+.playerBox span{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin: 7px;
+}
+a{
+    text-decoration: none;
+    color: #dd2c00;
+}
+
+.mainHead{
+    font-family: 'Staatliches', cursive;
+}
